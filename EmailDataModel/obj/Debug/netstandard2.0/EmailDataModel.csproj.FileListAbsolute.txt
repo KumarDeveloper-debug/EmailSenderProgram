@@ -1,0 +1,10 @@
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\bin\Debug\netstandard2.0\EmailDataModel.deps.json
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\bin\Debug\netstandard2.0\EmailDataModel.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\bin\Debug\netstandard2.0\EmailDataModel.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.csproj.AssemblyReference.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.AssemblyInfoInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.AssemblyInfo.cs
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailDataModel\obj\Debug\netstandard2.0\EmailDataModel.pdb

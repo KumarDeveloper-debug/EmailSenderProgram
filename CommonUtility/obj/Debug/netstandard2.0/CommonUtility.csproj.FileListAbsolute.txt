@@ -1,0 +1,10 @@
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\bin\Debug\netstandard2.0\CommonUtility.deps.json
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\bin\Debug\netstandard2.0\CommonUtility.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\bin\Debug\netstandard2.0\CommonUtility.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.csproj.AssemblyReference.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.AssemblyInfoInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.AssemblyInfo.cs
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Debug\netstandard2.0\CommonUtility.pdb

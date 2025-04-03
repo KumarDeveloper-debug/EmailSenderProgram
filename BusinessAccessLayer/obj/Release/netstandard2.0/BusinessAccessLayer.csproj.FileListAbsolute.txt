@@ -1,0 +1,17 @@
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\BusinessAccessLayer.deps.json
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\BusinessAccessLayer.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\BusinessAccessLayer.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\CommonUtility.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\EmailDataModel.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\ErrorLogger.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\CommonUtility.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\EmailDataModel.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\bin\Release\netstandard2.0\ErrorLogger.pdb
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.csproj.AssemblyReference.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.AssemblyInfoInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.AssemblyInfo.cs
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\Business.395A7FC9.Up2Date
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.dll
+D:\New-Email-Sender-Program\EmailSenderProgram\BusinessAccessLayer\obj\Release\netstandard2.0\BusinessAccessLayer.pdb

@@ -1,0 +1,44 @@
+----------SPECIAL TECHNIQUES----ADVANTAGES-------------
+Personalized Welcome Emails: Automated welcome emails with recipient names.
+Multi-Recipient Support: Send emails to multiple IDs (To) notification.
+Secure Credentials Storage: Store SMTP credentials securely in Azure Key Vault.
+Multilingual Support: Support for multiple languages to cater to global clients.
+Auto-Generated Invoices: Attach auto-generated invoice bills to emails.
+Two-Factor Notification: Send notifications via email and SMS for added security.
+Email Status Tracking: Track email status with backend logging.
+Scheduled Emails: Send scheduled emails with attachments to vendors and store owners.
+Bulk Email Sending: Send bulk emails using Excel sheet uploads.
+Additional Features
+Cost-Effective Pricing: Pay-as-you-go pricing model.
+Customizable Templates: Create and use custom email templates.
+Attachment and Image Support: Send emails with attachments and inline images.
+Email Tracking and Analytics: Track email opens, clicks, and other metrics.
+
+
+
+--------------HOW I DESIGN-------------------------------------------------------
+Follow .NET Coding Standards: Adhere to naming conventions and coding guidelines.
+Use Dependency Injection: Decouple dependencies using containers like Autofac or Ninject.
+Implement SOLID Principles: Follow principles for maintainable and scalable code.
+Use async/await: Write asynchronous code using async and await keywords.
+Handle Exceptions Properly: Catch specific exceptions and log errors.
+Use Entity Framework Core: Perform database operations using EF Core.
+Implement Security Best Practices: Validate user input and store passwords securely.
+Use a Logging Framework: Log events and exceptions using Serilog or NLog.
+Write Unit Tests and Integration Tests: Test individual classes and entire systems.
+Follow CI/CD Practices: Automate builds, tests, and deployments using Jenkins or Azure DevOps.
+
+
+----------------------AND I FOUND FROM THE CODE------------------------
+
+//If the customer is newly registered, one day back in time
+if (e[i].CreatedDateTime > DateTime.Now.AddDays(-1))
+ 
+//Every Sunday run Comeback mail BUT HERE MENTION MONDAY
+if (DateTime.Now.DayOfWeek.Equals(DayOfWeek.Monday))
+ 
+ missing Voucher code
+ 
+--------------------------
+ 
+ 

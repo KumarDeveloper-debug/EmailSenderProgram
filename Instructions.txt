@@ -1,0 +1,14 @@
+Instructions 2019.1
+
+EmailSenderProgram is a fictitious application that sends mail to customers. Today two types of mail are sent; "Welcome mail" and "Come back mail". The idea is that the application runs every day as a scheduled job. When the run is finished, it is printed if it went well or badly.
+You know that someday you will add more mail types.
+
+Task 1 - Programming task (write code)
+The code is not good, not in any way. It contains obvious bugs, some misconceptions and it is quite ugly written.
+
+Your task is to make the code better and prepare it to be able to build on with more mail types!
+I want easy-to-read, easy-to-understand and robust code that is easy to modify and build on. Write about the program and write down how you think, what shortcomings you have identified and how to attack the problem.
+It is free to change the project except in DataLayer.cs.
+
+Task 2 - Theoretical task (do not write code)
+If you got a job writing a similar program from scratch, how did you design it? Describe how the architecture should look and if you would use some special techniques.
