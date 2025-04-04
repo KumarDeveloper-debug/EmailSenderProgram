@@ -1,35 +1,37 @@
-----------SPECIAL TECHNIQUES----ADVANTAGES-------------
-Personalized Welcome Emails: Automated welcome emails with recipient names.
-Multi-Recipient Support: Send emails to multiple IDs (To) notification.
-Secure Credentials Storage: Store SMTP credentials securely in Azure Key Vault.
-Multilingual Support: Support for multiple languages to cater to global clients.
-Auto-Generated Invoices: Attach auto-generated invoice bills to emails.
-Two-Factor Notification: Send notifications via email and SMS for added security.
-Email Status Tracking: Track email status with backend logging.
-Scheduled Emails: Send scheduled emails with attachments to vendors and store owners.
-Bulk Email Sending: Send bulk emails using Excel sheet uploads.
+----------------SPECIAL TECHNIQUES----ADVANTAGES-----------------------
+1.Personalized Welcome Emails: Automated welcome emails with recipient names.
+2.Multi-Recipient Support: Send emails to multiple IDs (To) notification.
+3.Secure Credentials Storage: Store SMTP credentials securely in Azure Key Vault.
+4.Multilingual Support: Support for multiple languages to cater to global clients.
+5.Auto-Generated Invoices: Attach auto-generated invoice bills to emails.
+6.Two-Factor Notification: Send notifications via email and SMS for added security.
+7.Email Status Tracking: Track email status with backend logging.
+8.Scheduled Emails: Send scheduled emails with attachments to vendors and store owners.
+9.Bulk Email Sending: Send bulk emails using Excel sheet uploads.
 Additional Features
-Cost-Effective Pricing: Pay-as-you-go pricing model.
-Customizable Templates: Create and use custom email templates.
-Attachment and Image Support: Send emails with attachments and inline images.
-Email Tracking and Analytics: Track email opens, clicks, and other metrics.
+10.Cost-Effective Pricing: Pay-as-you-go pricing model.
+11.Customizable Templates: Create and use custom email templates.
+12.Attachment and Image Support: Send emails with attachments and inline images.
+13Email Tracking and Analytics: Track email opens, clicks, and other metrics.
+14.Follow the CQRS principles approach and use the MediatR library for the implementation
+15.Design the system based on Oops concepts
+16.template for email content 
 
 
+----------------------HOW I DESIGN  IN TASK 2-------------------------------------------------------
+1.Follow .NET Coding Standards: Adhere to naming conventions and coding guidelines.
+2.Use Dependency Injection: Decouple dependencies using containers like Autofac or Ninject.
+3.Implement SOLID Principles: Follow principles for maintainable and scalable code.
+4.Use async/await: Write asynchronous code using async and await keywords.
+5.Handle Exceptions Properly: Catch specific exceptions and log errors.
+6.Use Entity Framework Core: Perform database operations using EF Core.
+7.Implement Security Best Practices: Validate user input and store passwords securely.
+8.Use a Logging Framework: Log events and exceptions using Serilog or NLog.
+9.Write Unit Tests and Integration Tests: Test individual classes and entire systems.
+10.Follow CI/CD Practices: Automate builds, tests, and deployments using Jenkins or Azure DevOps.
 
---------------HOW I DESIGN-------------------------------------------------------
-Follow .NET Coding Standards: Adhere to naming conventions and coding guidelines.
-Use Dependency Injection: Decouple dependencies using containers like Autofac or Ninject.
-Implement SOLID Principles: Follow principles for maintainable and scalable code.
-Use async/await: Write asynchronous code using async and await keywords.
-Handle Exceptions Properly: Catch specific exceptions and log errors.
-Use Entity Framework Core: Perform database operations using EF Core.
-Implement Security Best Practices: Validate user input and store passwords securely.
-Use a Logging Framework: Log events and exceptions using Serilog or NLog.
-Write Unit Tests and Integration Tests: Test individual classes and entire systems.
-Follow CI/CD Practices: Automate builds, tests, and deployments using Jenkins or Azure DevOps.
 
-
-----------------------AND I FOUND FROM THE CODE------------------------
+----------------------AND I FOUND FROM THE CODE TASK 1------------------------
 
 //If the customer is newly registered, one day back in time
 if (e[i].CreatedDateTime > DateTime.Now.AddDays(-1))

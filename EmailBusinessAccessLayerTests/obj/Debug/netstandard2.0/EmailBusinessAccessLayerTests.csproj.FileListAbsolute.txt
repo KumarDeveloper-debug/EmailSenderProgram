@@ -14,6 +14,7 @@ D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.AssemblyInfoInputs.cache
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.AssemblyInfo.cs
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.sourcelink.json
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBus.5AB22E06.Up2Date
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.dll
 D:\New-Email-Sender-Program\EmailSenderProgram\EmailBusinessAccessLayerTests\obj\Debug\netstandard2.0\EmailBusinessAccessLayerTests.pdb

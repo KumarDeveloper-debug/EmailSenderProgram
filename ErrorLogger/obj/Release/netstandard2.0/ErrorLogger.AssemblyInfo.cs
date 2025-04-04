@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ErrorLogger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86016414925b47e6d51c40c9f952478eb50feb09")]
 [assembly: System.Reflection.AssemblyProductAttribute("ErrorLogger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ErrorLogger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,5 +6,6 @@ D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstanda
 D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.AssemblyInfoInputs.cache
 D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.AssemblyInfo.cs
 D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.sourcelink.json
 D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.dll
 D:\New-Email-Sender-Program\EmailSenderProgram\ErrorLogger\obj\Release\netstandard2.0\ErrorLogger.pdb

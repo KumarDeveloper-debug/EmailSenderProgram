@@ -26,6 +26,7 @@ namespace BusinessAccessLayer.EmailService
                 List<Customer> customers = DataLayer.ListCustomers();
                 //List all orders
                 List<Order> orders = DataLayer.ListOrders();
+                SmtpClient smtp = WelcomeEmailService.GetSmtpClient();
 
                 //loop through list of customers
                 foreach (Customer customer in customers)
@@ -45,7 +46,6 @@ namespace BusinessAccessLayer.EmailService
                         if (mailMessage != null)
                         {
                             // Don't send mails in debug mode, just write the emails in console
-                            SmtpClient smtp = WelcomeEmailService.GetSmtpClient();
                             smtp.Send(mailMessage);
                         }
                         else

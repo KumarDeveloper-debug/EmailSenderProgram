@@ -6,5 +6,6 @@ D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstan
 D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.AssemblyInfoInputs.cache
 D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.AssemblyInfo.cs
 D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.csproj.CoreCompileInputs.cache
+D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.sourcelink.json
 D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.dll
 D:\New-Email-Sender-Program\EmailSenderProgram\CommonUtility\obj\Release\netstandard2.0\CommonUtility.pdb

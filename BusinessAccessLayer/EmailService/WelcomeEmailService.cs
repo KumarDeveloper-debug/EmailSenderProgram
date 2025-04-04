@@ -27,6 +27,8 @@ namespace BusinessAccessLayer.EmailService
                 //If the customer is newly registered, one day back in time
                 var customers = DataLayer.ListCustomers().Where(c => c.CreatedDateTime.Date == DateTime.Now.AddDays(-1).Date);
                 //loop through list of new customers
+                //Create a SmtpClient to our smtphost: yoursmtphost
+                SmtpClient smtp = GetSmtpClient();
                 foreach (var customer in customers)
                 {
                     Customer _customer = customer;
@@ -38,8 +40,7 @@ namespace BusinessAccessLayer.EmailService
                     //Don't send mails in debug mode, just write the emails in console
                     Console.WriteLine("Send mail to:" + customer.Email);
                     //#else
-                    //Create a SmtpClient to our smtphost: yoursmtphost
-                    SmtpClient smtp = GetSmtpClient();
+                  
                     smtp.Send(mailMessage);
 
                 }
