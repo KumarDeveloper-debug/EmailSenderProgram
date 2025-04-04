@@ -5,7 +5,8 @@ namespace ErrorLogger
 {
     public class Log
     {
-        private static readonly string LogFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "EmailLog", "error.log");
+        //private static readonly string LogFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "EmailLog", "error.log"); // Tested for local
+        private static readonly string LogFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs", "error.log");
 
         public static void LogError(Exception ex, string message)
         {

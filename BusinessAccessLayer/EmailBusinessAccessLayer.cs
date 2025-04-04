@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
 using System.Net.Mail;
 using BusinessAccessLayer.EmailService;
-using CommonUtility;
-using EmailSenderProgram;
-using ErrorLogger;
+
 
 namespace BusinessAccessLayer
 {

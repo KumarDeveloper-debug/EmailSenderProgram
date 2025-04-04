@@ -14,18 +14,28 @@ namespace EmailSenderProgram
         /// This application is run everyday
         /// </summary>
         /// <param name="args"></param>
+
+        private static int retryCount = int.Parse(ConfigurationManager.AppSettings["RetryCount"]);
+        private static int retryDuration = int.Parse(ConfigurationManager.AppSettings["RetryDuration"]);
+        private static int currentAttempt = int.Parse(ConfigurationManager.AppSettings["CurrentAttempt"]);
         private static void Main(string[] args)
         {
-            int retryCount = 5; //int.Parse(ConfigurationManager.AppSettings["RetryCount"]);
-            int retryDuration = 10000; //int.Parse(ConfigurationManager.AppSettings["RetryDuration"]);
-            int currentAttempt = 0;
 
-            var requestData = new RequestData();
-            requestData.Voucher = "A1000";
-            requestData.EmailSmtpClient = GetSmtpClient();
+            while (true)
+            {
+                if (DateTime.Now.Hour == 0)
+                {
 
-            SendEmailWithRetry(retryCount, retryDuration, currentAttempt, requestData);
-            Console.ReadKey();
+                    var requestData = new RequestData();
+                    requestData.Voucher = "A1000";
+                    requestData.EmailSmtpClient = GetSmtpClient();
+
+                    SendEmailWithRetry(retryCount, retryDuration, currentAttempt, requestData);
+                }
+
+                Thread.Sleep(60000); // wait for 1 minute
+            }
+            //Console.ReadKey();
         }
 
         private static void SendEmailWithRetry(int retryCount, int retryDuration, int currentAttempt, RequestData requestData)
@@ -35,18 +45,18 @@ namespace EmailSenderProgram
                 //Call the method that do the work for me, I.E. sending the mails
                 Console.WriteLine("Send Welcomemail");
                 bool success = EmailBusinessAccessLayer.DoWelcomeEmailWork();
-//#if DEBUG
-//            //Debug mode, always send Comeback mail
-//            Console.WriteLine("Send Comebackmail");
-//			success = EmailBusinessAccessLayer.DoEmailWork2("EOComebackToUs");
-//#else
+
+                // #if DEBUG mode, always send Comeback mail
+                Console.WriteLine("Send Comebackmail");
+                success = EmailBusinessAccessLayer.DoComeBackEmailWork("EOComebackToUs");
+                //#else
                 //Every Sunday run Comeback mail
                 if (DateTime.Now.DayOfWeek.Equals(DayOfWeek.Sunday))
                 {
                     Console.WriteLine("Send Comebackmail");
                     success = EmailBusinessAccessLayer.DoComeBackEmailWork("EOComebackToUs");
                 }
-//#endif
+
 
                 //Check if the sending went OK
                 if (success)
@@ -87,7 +97,7 @@ namespace EmailSenderProgram
                     ConfigurationManager.AppSettings["SenderPassword"])
             };
 
-            return smtpClient;
+          return smtpClient;
         }
     }
 }

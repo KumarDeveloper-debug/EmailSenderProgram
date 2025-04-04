@@ -1,5 +1,4 @@
-﻿using System;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
 
@@ -23,10 +22,11 @@ namespace CommonUtility
             mailMessage.Subject = ConstantText.Welcome_Subject;
             //Send mail from info@EO.com
             //mailMessage.From = new MailAddress(ConfigurationManager.AppSettings["SmtpFromEmail"]);
+            mailMessage.IsBodyHtml = true;
 
-            mailMessage.From = new MailAddress("ranjitkmr787.rk@gmail.com");
+            mailMessage.From = new MailAddress(ConfigurationManager.AppSettings["SmtpFromEmail"]);
             //Add body to mail
-            mailMessage.Body = string.Format(email) + ConstantText.Welcome_Email_Body;
+            mailMessage.Body = string.Format("Hi {0}<br/><br/>{1}", email, ConstantText.Welcome_Email_Body);
 
             return mailMessage;
         }
@@ -46,10 +46,9 @@ namespace CommonUtility
             mailMessage.Subject = ConstantText.ComeBack_Subject;
             //Send mail from info@EO.com
             mailMessage.From = new MailAddress(ConfigurationManager.AppSettings["SmtpFromEmail"]);
-
+            mailMessage.IsBodyHtml = true;
             //Add body to mail
-            mailMessage.Body = string.Format(email) + ConstantText.ComeBack_Email_Body;
-
+            mailMessage.Body = string.Format("Hi {0}<br/><br/>{1}", email, ConstantText.ComeBack_Email_Body);
             return mailMessage;
         }
 

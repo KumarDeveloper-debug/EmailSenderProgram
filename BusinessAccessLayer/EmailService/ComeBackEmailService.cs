@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
-using System.Text;
 using CommonUtility;
 using EmailSenderProgram;
 using ErrorLogger;
@@ -11,6 +10,8 @@ namespace BusinessAccessLayer.EmailService
 {
     public class ComeBackEmailService : IEmailService
     {
+        private readonly Customer _customer;
+
         public SmtpClient EmailSmtpClient { get; set; }
 
         public ComeBackEmailService(SmtpClient smtpClient)
@@ -29,6 +30,8 @@ namespace BusinessAccessLayer.EmailService
                 //loop through list of customers
                 foreach (Customer customer in customers)
                 {
+                    Customer _customer = customer;
+
                     // We send mail if customer hasn't put an order
                     bool Send = true;
                     //loop through list of orders to see if customer don't exist in that list
@@ -42,7 +45,7 @@ namespace BusinessAccessLayer.EmailService
                         if (mailMessage != null)
                         {
                             // Don't send mails in debug mode, just write the emails in console
-                            SmtpClient smtp = EmailSmtpClient;
+                            SmtpClient smtp = WelcomeEmailService.GetSmtpClient();
                             smtp.Send(mailMessage);
                         }
                         else
@@ -56,7 +59,7 @@ namespace BusinessAccessLayer.EmailService
             }
             catch (Exception ex)
             {
-                Log.LogError(ex, "Error sending come back emails: " + ex.Message);
+                Log.LogError(ex, $"Error sending welcome email to {_customer.Email}: {ex.Message}");
                 return false;
             }
         }
