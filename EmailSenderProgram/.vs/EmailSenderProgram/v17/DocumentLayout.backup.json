@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|d:\\new-email-sender-program\\emailsenderprogram\\emailsenderprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -14,10 +18,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{3619F11B-AAF5-4605-AD3D-B11D32395D0B}|..\\CommonUtility\\CommonUtility.csproj|d:\\new-email-sender-program\\emailsenderprogram\\commonutility\\mailmessagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}|EmailSenderProgram.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6A1018-79C1-4701-BF6C-AB8AB49368F3}|..\\ErrorLogger\\ErrorLogger.csproj|d:\\new-email-sender-program\\emailsenderprogram\\errorlogger\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,11 +51,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WelcomeEmailService.cs",
               "DocumentMoniker": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\BusinessAccessLayer\\EmailService\\WelcomeEmailService.cs",
               "RelativeDocumentMoniker": "..\\BusinessAccessLayer\\EmailService\\WelcomeEmailService.cs",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "..\\BusinessAccessLayer\\EmailService\\WelcomeEmailService.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAtwEcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:37:04.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:37:04.748Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "..\\BusinessAccessLayer\\DataLayer.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA7wCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:10:11.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T16:10:11.427Z"
             },
             {
               "$type": "Document",
@@ -89,38 +87,37 @@
               "RelativeToolTip": "..\\ErrorLogger\\Log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAC9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:53:54.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:53:54.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "App.config",
               "DocumentMoniker": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\App.config",
               "RelativeDocumentMoniker": "App.config",
               "ToolTip": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\App.config",
               "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-04-03T13:03:54.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\EmailSenderProgram\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAIAwwBcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T10:44:58.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ComeBackEmailService.cs",
               "DocumentMoniker": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\BusinessAccessLayer\\EmailService\\ComeBackEmailService.cs",
               "RelativeDocumentMoniker": "..\\BusinessAccessLayer\\EmailService\\ComeBackEmailService.cs",
@@ -128,12 +125,11 @@
               "RelativeToolTip": "..\\BusinessAccessLayer\\EmailService\\ComeBackEmailService.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAApwDAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:39:15.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:39:15.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MailMessageHelper.cs",
               "DocumentMoniker": "D:\\New-Email-Sender-Program\\EmailSenderProgram\\CommonUtility\\MailMessageHelper.cs",
               "RelativeDocumentMoniker": "..\\CommonUtility\\MailMessageHelper.cs",
@@ -141,8 +137,7 @@
               "RelativeToolTip": "..\\CommonUtility\\MailMessageHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T11:06:44.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T11:06:44.5Z"
             },
             {
               "$type": "Document",
@@ -154,8 +149,7 @@
               "RelativeToolTip": "..\\BusinessAccessLayer\\EmailBusinessAccessLayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T10:56:42.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T10:56:42.426Z"
             },
             {
               "$type": "Document",
@@ -167,8 +161,7 @@
               "RelativeToolTip": "..\\BusinessAccessLayer\\EmailService\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:36:01.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:36:01.778Z"
             },
             {
               "$type": "Document",
@@ -180,8 +173,7 @@
               "RelativeToolTip": "..\\EmailDataModel\\RequestData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:41:18.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T16:41:18.351Z"
             },
             {
               "$type": "Document",
@@ -193,8 +185,7 @@
               "RelativeToolTip": "..\\EmailBusinessAccessLayerTests\\EmailBusinessAccessLayerTests.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAUwD0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:43:00.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:43:00.375Z"
             },
             {
               "$type": "Document",
@@ -206,8 +197,7 @@
               "RelativeToolTip": "..\\CommonUtility\\ConstantText.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:32:40.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T12:32:40.144Z"
             },
             {
               "$type": "Document",
